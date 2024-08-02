@@ -12,18 +12,24 @@ body {
 .titulo {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 150%;
+    align-items: center;
     color: #b11465;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: #7a566eda;
+}
+h1 {
+    text-align: center;
 }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-stretch:extra-expanded;
     color: #750c43;
+    text-align: center;
 }
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #272727;
+    text-align: center;
 }
 .info {
     display: flex;
