@@ -9,8 +9,6 @@ body {
 
 }
 
-
-
 .titulo {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 150%;
@@ -33,9 +31,8 @@ h3 {
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #fad4e8;
-    border-radius: 10%;
-    padding: 10px;
-    width: 30%;
+    border-radius: 5%;
+    width: 95%;
     margin-bottom: 15px;
 }
 
@@ -45,13 +42,13 @@ h3 {
     align-items: center;
     background-color: #eb59a577;
     border-radius: 5%;
-    width: 30%;
+    width: 95%;
     margin-bottom: 15px;
 }
 
 .fondo {
     display: flex;
-    width: 30%;
+    width: 95%;
     flex-direction: column;
     align-items: center;
     border-radius: 5%;
@@ -62,7 +59,7 @@ h3 {
 
 .postre {
     display: flex;
-    width: 30%;
+    width: 95%;
     flex-direction: column;
     border-radius: 5%;
     background-color: #eb59a4;
@@ -78,9 +75,47 @@ h3 {
 }
 
 img {
-    width: 30%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 5%;
 }
+
+@media only screen and (min-width: 600px) {
+    .info {
+        width: 60%;
+    }
+    .entrada {
+        width: 60%;
+    }
+    .fondo {
+        width: 60%;
+    }
+    .postre {
+        width: 60%;
+    }
+    img {
+        width: 60%;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    .info {
+        width: 40%;
+    }
+    .entrada {
+        width: 40%;
+    }
+    .fondo {
+        width: 40%;
+    }
+    .postre {
+        width: 40%;
+    }
+    img {
+        width: 40%;
+    }
+  }
+
+
